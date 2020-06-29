@@ -1,8 +1,10 @@
 function preload() {
-  imgCenario    = loadImage('imagens/cenario/floresta.png');
-  imgPerson     = loadImage('imagens/personagem/correndo.png');
-  imgTelaInicial= loadImage('imagens/cenario/telainicial.png')
-  fontTelaInicial= loadFont('imagens/assets/telainicial.ttf')
+  imgCenario      = loadImage('imagens/cenario/floresta.png');
+  imgCenarioTarde = loadImage('imagens/cenario/floresta-tarde.png');
+  imgCenarioNoite = loadImage('imagens/cenario/floresta-noite.png');
+  imgPerson       = loadImage('imagens/personagem/correndo.png');
+  imgTelaInicial  = loadImage('imagens/cenario/telainicial.png')
+  fontTelaInicial = loadFont('imagens/assets/telainicial.ttf')
   
   imgHeart      = loadImage('imagens/assets/heart.png');
   imgGota       = loadImage('imagens/inimigos/gotinha.png');

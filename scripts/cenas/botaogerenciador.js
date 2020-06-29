@@ -16,11 +16,13 @@ class BotaoGerenciador {
   draw() {
     this.botao.position(this.x, this.y);
     //Centraliza Botao na Horizontal
-  //  this.botao.center('horizontal');
+    this.botao.center('horizontal');
   }
   
   _alteraCenas() {
     this.botao.remove();
     cenaAtual = 'jogo';
+    console.log('botao-gerenciador:' +cenaAtual);
   }
+  
 }

@@ -1,5 +1,5 @@
 class TelaInicial {
-  constructor() {
+  constructor(texto, x, y, btncss) {
 
   }
 

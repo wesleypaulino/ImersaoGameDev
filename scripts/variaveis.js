@@ -1,5 +1,6 @@
-
 let imgCenario;
+let imgCenarioTarde;
+let imgCenarioNoite;
 let imgPerson;
 let imgTelaInicial;
 let fontTelaInicial;
@@ -15,7 +16,11 @@ let fita;
 let vida;
 let jogo;
 let telaInicial;
+
 let cenario;
+let cenarioTarde;
+let cenarioNoite;
+
 let personagem;
 let pontuacao;
 

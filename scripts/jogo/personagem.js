@@ -27,7 +27,6 @@ class Personagem extends Animacao {
       //Sobe eixo y
       this.velocidadeDoPulo = this.alturaDoPulo
       this.pulos++
-
     }
   }
 
@@ -52,7 +51,6 @@ class Personagem extends Animacao {
     if (this.invencivel) {
       return false;
     }
-
 
     //Mostrar quadro quando transparente para colisao
     //noFill()
